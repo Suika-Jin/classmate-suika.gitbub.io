@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "cushu";
+    src: url("PangMenZhengDaoCuShuTi-2.ttf");
+}
+@font-face {
+    font-family: "maoxing";
+    src: url("YouSheYuFeiTeJianKangTi-2.ttf");
+}
+html{
+    border-width: 5px;
+    background-image: linear-gradient(#e5e9e2, #d9ee9e);
+    height: 999px;
+}
+h1{
+    font-size: 40px;
+    text-shadow: 10px 10px 10px pink;
+    font-family: cushu;
+    text-align: center;
+}
+details {
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+} 
+  
+summary {
+    border-radius: 0 0 10px 10px;
+    background-color: #ddd;
+    padding: 2px 6px;
+    margin: 0;
+    box-shadow: 3px 3px 4px black;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    font-size: 20px;
+}
+  
+details[open] {
+    border-radius: 0 0 10px 10px;
+    background-color: #ddd;
+    padding: 2px 6px;
+    margin: 0;
+    box-shadow: 3px 3px 4px black;
+    font-family: maoxing;
+    font-size: 18px;
+}
+  
+details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+    background-image: linear-gradient(to right, rgb(240, 255, 205) , rgb(194, 241, 200));
+}
